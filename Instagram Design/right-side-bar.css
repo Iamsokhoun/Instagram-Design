@@ -1,0 +1,136 @@
+.myprofile{
+    width:45px;
+    border-radius:25px;
+}
+.right-side-bar{
+    width:450px;
+    position:absolute;
+    top:0;
+    right:0;
+    bottom:0;
+    left:70%;
+    display:flex;
+    flex-direction:column;
+
+}
+.myprofile-picture-container{
+    margin-top:55px;
+    display:flex; 
+}
+.myprofile-container{
+    display:flex;  
+    margin-top:-8px;
+}
+.profile-subcontainer{
+    width:65px;
+    display:flex;
+    align-items:center;
+}
+.profile-name{
+    width:200px;
+    display:block;
+    font-weight:700;
+}
+.switch-account{
+    display:flex;
+    align-items:center;
+    color:#0095f6;
+    font-size:13px;
+    font-weight:550;
+}
+.switch-account:hover{
+    color:black;
+    cursor:pointer;
+}
+.ig-name{
+    margin-bottom:-12px;
+}
+.facebook-name{
+    color:rgb(151, 150, 150);
+    font-size:14px;
+    font-weight:250;
+}
+.account-suggestion{
+    display:flex;
+}
+.suggested-text{
+    width:265px;
+    color:rgb(126, 125, 125);
+    font-size:15px;
+    font-weight:800;
+}
+.about{
+    font-size:12px;
+    color:rgb(217, 212, 212);
+    margin-top:25px;
+}
+span{
+    font-size:8px;
+}
+.first-line{
+    margin-bottom:-8px;
+}
+.third-line{
+    margin-top:20px;
+}
+.see-all-text{
+    font-size:13px;
+    font-weight:550;
+}
+.see-all-text:hover{
+    color:rgb(169, 168, 168);
+    cursor:pointer;
+}
+@media(max-width:1450px) {
+    .right-side-bar{
+        left:70%;
+    }
+    .container{
+        margin:0 27% auto;
+    }
+}
+@media(max-width:1395px) {
+    .right-side-bar{
+        left:68%;
+    }
+    .container{
+        margin:0 26% auto;
+    }
+}
+@media(max-width:1395px) {
+    .right-side-bar{
+        left:69%;
+    }
+    .container{
+        margin:0 25% auto;
+    }
+}
+@media(max-width:1300px) {
+    .container{
+        margin:0 24% auto;
+    }
+}
+@media(max-width:1050px) {
+    .right-side-bar{
+        display: none;
+    }
+}
+@media(max-width:1262px) {
+    .left-side-bar{
+        width: 80px;
+    }
+    .left-side-bar  p{
+        display:none;
+    }
+    .thread-container,
+    .more-option-container{
+        margin:0 10px 20px 10px;
+    }
+    .instagram-text{
+        display: none;
+    }
+    .instagram-logo{
+        display: block;
+    }
+
+}

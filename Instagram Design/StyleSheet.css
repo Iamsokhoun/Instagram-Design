@@ -1,0 +1,126 @@
+.container{
+    width:450px; 
+    height:1000px;
+    margin:0 28% auto;
+    z-index: 1;
+}
+
+.profile-picture{
+    width:40px; 
+    border-radius: 25px;
+}
+.profile-picture-container{
+    text-align: center;
+    width:60px;
+    align-content: center;
+}
+.account-name{
+    font-size:18px;
+    font-weight:500;
+    margin-top: 16px;
+}
+.profile-info{
+    display:flex;
+    flex:1;
+}
+.verified-sign{
+    width:12px;
+    display:flex;
+    margin:20px 3px 0 3px;
+}
+.more-option{
+    display:flex;
+    width:20px;
+    margin-right:0;
+    align-items: center;
+}
+.time{
+    margin-top:17px ;
+    margin-right:3px;
+    color:rgb(139, 135, 135);
+}
+
+
+.follow{
+    margin-top:17px;
+    color:#0095f6;
+}
+.follow:hover{
+    color:black;
+    cursor: pointer;
+}
+.instagram-preview{
+    display:flex;
+}
+.post-container{
+    text-align: center;
+}
+.post{
+    width:100%;
+    border-radius:2px;
+}
+.like{
+    height:20px;
+    margin-left:5px;
+}
+.comment{
+    height:20px;
+}
+.share{
+    height:20px;
+}
+.comment-section{
+    margin-top:8px;
+    width:100px;
+    display:flex;
+    justify-content: space-between;
+}
+.number-like{
+    margin-top:10px;
+    font-family:Roboto,Arial;
+    font-weight:500px;
+    margin-bottom:0;
+}
+.caption{
+    font-family: Roboto,Arial;
+    font-size:14px;
+    margin-top:3px;
+    display:inline;
+    white-space:normal;
+    margin-top:10px;
+    
+}
+.caption-account-name{
+    display:inline-block;
+    font-size:16px;
+    font-family:Roboro,Arial;
+    font-weight:500;
+    margin-top:10px;
+   
+}
+.info-section-verified-sign{
+    height:12px;
+    margin-bottom:0;
+    margin-top: 14px;
+    
+}
+.info-section-verified{
+    display:inline-block;
+    margin-left:3px;
+    margin-right:3px;
+}
+.info-section-comment,.info-section-add-comment{
+    font-size:14px;
+    font-family:Roboto,Arial;
+    color:rgb(168, 167, 167);
+    margin-top:10px;
+}
+.caption-info{
+    display:flex;
+}
+.devided-line{
+    margin-top:15px;
+    border-color: rgb(240, 233, 233);
+}
+
+

@@ -1,0 +1,19 @@
+.story-container{
+    height:120px;
+    width:385px;
+    display:flex;
+    margin:35px 52% 0 auto;
+}
+.story{
+    width:60px;
+    border-radius: 30px;
+}
+.one-cell-of-story{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center;
+    width:75px;
+}
+
+

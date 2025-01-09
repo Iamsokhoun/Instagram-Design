@@ -1,0 +1,123 @@
+.instagram-text{
+    position:fixed;
+    width:110px;
+    top:30px;
+    left:20px;
+}
+.instagram-logo{
+    height:25px;
+    display:none;
+}
+.left-side-bar{
+    position:fixed;
+    width:220px;
+    bottom:0;
+    left:0;
+    top:0;
+    display:flex;
+    flex-direction: column;
+    border-right:1px solid rgb(223, 220, 220);
+    z-index: 1;
+    background-color: white;
+}
+.home-icon{
+    height:25px;
+    margin-left:20px;
+}
+.search-icon{
+    height:20px;
+    margin-left:20px;
+}
+.explore-icon{
+    height:20px;
+    margin-left:20px;
+}
+.reel-icon{
+    height:20px;
+    margin-left:20px;
+}
+.message-icon{
+    height:20px;
+    margin-left:20px;
+}
+.notification-icon{
+    height:20px;
+    margin-left:20px;
+}
+.create-icon{
+    height:20px;
+    margin-left:20px;
+}
+.myprofile-picture{
+   width:25px; 
+   border-radius: 13px;
+   margin-left:20px;
+}
+.thread-icon{
+    width:20px;
+    margin-left:20px;
+    margin-bottom:0;
+}
+.more-option-icon{
+    width:20px;
+    margin-left:20px;
+}
+.top-section{
+    display:flex;
+    height:110px;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+.middle-section{
+    display:flex; 
+    flex-direction: column;
+    flex:1;
+    justify-content: space-between;
+    flex-shrink: 0;
+}
+.bottom-section{
+    flex-direction: column;
+    display: flex;
+    height:200px; 
+    justify-content: end;  
+}
+.middle-section p{
+    display:inline-block;
+    margin-left:15px;
+}
+.bottom-section p{
+    display:inline-block;
+    margin-left:15px;  
+}
+.home-container,
+.search-container,
+.explore-container,
+.reel-container,
+.message-container,
+.notification-container,
+.create-container,
+.myprile-container,
+.thread-container,
+.more-option-container{
+    display:flex;
+    align-items:center;
+    margin:0 10px 5px 10px;
+    border-radius:6px;
+
+}
+.home-container:hover,
+.search-container:hover,
+.explore-container:hover,
+.reel-container:hover,
+.message-container:hover,
+.notification-container:hover,
+.create-container:hover,
+.myprile-container:hover,
+.thread-container:hover,
+.more-option-container:hover{
+    background-color:rgb(235, 235, 235);
+    cursor:pointer;
+}
+
+
